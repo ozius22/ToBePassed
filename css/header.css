@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inria Sans';
+}
+
+nav {
+    background: #0A2647;
+    height: 80px;
+    width: 100%;
+}
+
+a#logo {
+    font-family: 'Indie Flower';
+    font-size: 35px;
+    line-height: 80px;
+    margin: 0 100px;
+    color: white;
+    letter-spacing: 0.08em;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul li #signinbutton {
+    margin-left: 100px;
+}
+ul li #loginbutton {
+    margin-right: 80px;
+}
+
+ul li .button {
+    color: #0A2647;
+    font-weight: 300;
+    background: white;
+    padding: 7px 13px;
+    border-radius: 45px;
+}
+
+ul li a:hover {
+    background: #83c5f7;
+    color: black;
+    transition: .5s;
+}
+

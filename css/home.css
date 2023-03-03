@@ -1,0 +1,85 @@
+h1 {
+    font-family: 'Indie Flower';
+    color: rgb(0, 0, 0);
+    font-size: 110px;
+}
+
+main {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+#titlepage {
+    margin-left: 85px;
+    margin-right: 60px;
+    flex-basis: 50%;
+}
+
+h1 {
+    padding-top: 22vh;
+}
+
+.subheading {
+    margin-top: -22px; 
+    line-height: 15px;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+.buttonmain {
+    background: #0A2647;
+    color: whitesmoke;
+    font-size: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.buttonmain:hover {
+    background: #83c5f7;
+    color: black;
+    transition: .5s;
+}
+
+a .card {
+    margin-top: 23vh;
+    margin-right: 2vh;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 70px 85px;
+    cursor: pointer;
+
+    background-image: url(../lotr.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+main div {
+    display: inline-block;
+}
+
+#card2 {
+    background-image: url(../naruto.jpg);
+}
+
+#card3 {
+    background-image: url(../sololeveling.jpg);
+}
+
+#card4 {
+    background-image: url(../got.jpg);
+    margin-right: 1vh;
+ }
+
+main div p {
+    font-size: larger;
+}
